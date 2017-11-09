@@ -1,9 +1,9 @@
 .model small                                           ;small model supports one data segment and one code segment,All data and code are near by default.
 .stack 100                                        ;creates a stack segment, adjusting the default size of 1K to 100
 .data
-  array DB 1,2,3,4,5,6,7,8,9,10,11,12,13,0DH, 0AH,'$' ;declare n 1-byte values and initialized
-  result DB 20 DUP(0)                                                      ;declare 20 uninitialized words starting at location result
-  len DB 9
+  array DB 4,2,8,1,16,6,27,18,19,3,0DH, 0AH,'$' ;declare n 1-byte values and initialized
+  result DB 10 DUP(0)                                                      ;declare 20 uninitialized words starting at location result
+  len DB 10
   count DB 0
  
 

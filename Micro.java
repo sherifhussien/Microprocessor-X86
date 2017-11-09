@@ -1,7 +1,7 @@
 
 public class Micro {
 	public static void main(String[]args){
-		int[] a ={4,2,8,1,16,6,27,18,19,3,22,30,27,14,5};
+		int[] a ={4,2,8,1,16,6,27,18,19,3};
 		int[] r= new int[a.length];
 		
 		for(int i=0;i<a.length;i++){

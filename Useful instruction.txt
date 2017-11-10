@@ -1,9 +1,0 @@
--t CS: (offset) ;to trace starting from a specific position
--t              ;to trace line by line
--d DS:0000      ;display from the data segment    
--g to run the code  
-
-
-
-d 0748:0070 to 0748:0079
-d 0748:007D to 0748:0086

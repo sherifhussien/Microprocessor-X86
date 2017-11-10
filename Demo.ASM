@@ -6,9 +6,6 @@
   len DB 10
   count DB 0
  
-
-
-
 .code
       MAIN PROC FAR           ;proc as FAR tells the assembler that all Calls to that proc must give both a segment and a 16-bit offset
             MOV AX, @data 	  ;10
